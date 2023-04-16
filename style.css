@@ -60,7 +60,7 @@ header {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -70,10 +70,11 @@ header {
 .header-text {
     font-size: 80px;
     margin-left: 30px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     font-weight: 700;
     font-style: bold;
 text-align: center;
+text-transform: uppercase;
 }
 
 .logo-pic {
@@ -88,7 +89,7 @@ text-align: center;
 
 .container-logo {
 
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -106,14 +107,14 @@ text-align: center;
 }
 
 .content {
-    max-width: 1400px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     margin:0 auto;
 }
 
 .container-content {
-    max-width:1400px;
+    max-width:1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -142,11 +143,12 @@ text-align: center;
 .services {
     width: 100%;
     padding: 0 100px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 80px;
     font-weight: 700;
     font-style: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .list {
@@ -156,7 +158,7 @@ text-align: center;
 }
 
 .listheader {
-    width: 590px;
+    width: 400px;
     font-size:100px ;
     text-shadow: 1px 0 1px #000,
     0 1px 1px #000,
@@ -177,7 +179,7 @@ text-align: center;
 
 
 .information {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -192,7 +194,7 @@ text-align: center;
 }
 
 .container-footer {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 50px auto 0;
     display: flex;
     flex-direction:column;
@@ -203,7 +205,7 @@ text-align: center;
 }
 
 .address p {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 80px;
     font-weight: 700;
 }
@@ -220,7 +222,7 @@ text-align: center;
     
 }
 .location {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 70px;
     font-weight: 700;
     text-decoration: none;
@@ -228,7 +230,7 @@ text-align: center;
 }
 
 .address-box {
-    max-width: 1400px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -245,12 +247,12 @@ text-align: center;
 
     .number,
     .year {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 20px;
     color:#000;
     }
 
-@media screen and (max-width: 1000px) 
+@media screen and (max-width: 800px) 
 {
 
     .container {
@@ -263,13 +265,10 @@ text-align: center;
     }
     
     .container-footer {
-max-width:1000px;
+max-width:800px;
     }
 
-    .img-box1,
-.img-box2 {
-    display: none;
-}
+
 .address-box {
     width: 100%;
     display: flex;
@@ -285,9 +284,15 @@ max-width:1000px;
 .services{
     padding:10px;
 }
+
 .listheader {
-    max-width: 590px;
-    font-size:100px;
+    max-width: 300px;
+    font-size:60px;
+}
+.header-text,
+.list,
+.fat {
+    font-size:40px;
 }
 
 .address p,
@@ -303,10 +308,10 @@ max-width:1000px;
 
 @media screen and (max-width: 600px) 
 {
-    .header-text {
+.header-text {
         font-size: 40px;}
 
-    .container-footer {
+.container-footer {
 max-width:600px;
     }
 
@@ -317,6 +322,11 @@ max-width:600px;
     align-items: center;
     flex-direction: column;
     gap: 30px;
+}
+
+.img-box1,
+.img-box2 {
+    display: none;
 }
 
 .list {
