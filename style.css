@@ -53,8 +53,7 @@ header {
 }
 
 .header-text {
-    font-size: 80px;
-    margin-left: 30px;
+    font-size: 40px;
     font-family: 'Amatic SC', sans-serif;
     font-weight: 700;
     font-style: bold;
@@ -82,7 +81,7 @@ text-transform: uppercase;
 
 .smile {
     max-width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .smile:hover,
@@ -169,6 +168,7 @@ text-transform: uppercase;
 
 .footer {
     background:linear-gradient(#fff,#99e0c3);
+    padding-bottom: 150px;
 }
 
 .container-footer {
@@ -248,6 +248,10 @@ text-transform: uppercase;
         max-width:70%;
     }
 
+    .logo-pic {
+        width: 50px;
+        height: 40px;
+    }
 
     .schedule {
         margin: 0 auto;
