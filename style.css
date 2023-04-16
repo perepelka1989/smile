@@ -11,7 +11,7 @@
     src: local("AmaticSC-Bold"),
         local("Amatic-SC-bold"),
         url(font/AmaticSC-Bold.ttf) font-weight:700;
-    font-style: bold;
+    font-style:bold;
 }
 
 @keyframes myAnim {
@@ -287,17 +287,17 @@ max-width:800px;
 
 .listheader {
     max-width: 300px;
-    font-size:60px;
+    font-size:30px;
 }
 .header-text,
 .list,
 .fat {
-    font-size:40px;
+    font-size:14px;
 }
 
 .address p,
 .location {
-    font-size: 50px;
+    font-size: 18px;
     font-weight: 700;
 }
 
